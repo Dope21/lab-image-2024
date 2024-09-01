@@ -90,8 +90,11 @@ imshow_grid(batch.numpy())
 imshow_grid(gt_img.numpy())
 ```
 Pre-process images
+
 ![preprocess images](/Lab5_CNN/pre-process-image.png)
+
 Ground Truth Image
+
 ![ground truth images](/Lab5_CNN/gt-image.png)
 
 ## 2. Create Autoencoder
@@ -273,8 +276,11 @@ with torch.no_grad():
   imshow_grid(outputs)
 ```
 Pre-process
+
 ![pre-process-image-2](/Lab5_CNN/pre-process-image-2.png)
+
 Model Output
+
 ![new](/Lab5_CNN/new.png)
 
 ## 4. Explore Feature Map
@@ -310,8 +316,13 @@ def visualize_feature_map(x,base_filename):
   plt.close()
 ```
 #### down1.convu
+
 ![down1.convu](/Lab5_CNN/feature_maps/feature_0.png)
+
 #### down1.relu
+
 ![down1.relu](/Lab5_CNN/feature_maps/feature_1.png)
+
 #### down1.pool
+
 ![down1.pool](/Lab5_CNN/feature_maps/feature_2.png)
